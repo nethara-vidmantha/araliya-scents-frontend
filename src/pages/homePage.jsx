@@ -311,7 +311,7 @@ function ContactPage() {
       <div className="mt-10 grid gap-4 md:grid-cols-3">
         {[
           ["Customer care", "hello@araliyascents.com"],
-          ["WhatsApp", "+94 77 000 0000"],
+          ["WhatsApp", "+94 76 983 3981"],
           ["Studio", "Colombo, Sri Lanka"],
         ].map(([title, value]) => (
           <div
