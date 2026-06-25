@@ -12,7 +12,7 @@ export default function AddProductPage() {
 	const [images, setImages] = useState([]);
 	const [price, setPrice] = useState(0);
 	const [labelledPrice, setLabelledPrice] = useState(0);
-	const [category, setCategory] = useState("cream");
+	const [category, setCategory] = useState("perfumes");
 	const [stock, setStock] = useState(0);
 	const navigate = useNavigate();
 
@@ -101,7 +101,7 @@ export default function AddProductPage() {
 								onChange={(e) => {
 									setName(e.target.value);
 								}}
-								placeholder="e.g., Diamond Shine Night Cream"
+								placeholder="e.g., Midnight Scent"
 							/>
 						</label>
 
@@ -116,7 +116,7 @@ export default function AddProductPage() {
 								onChange={(e) => {
 									setAltNames(e.target.value);
 								}}
-								placeholder="Comma-separated; e.g., night cream, hydrating cream"
+								placeholder="Comma-separated; e.g., Nocturne, Aqua Mist"
 							/>
 						</label>
 
@@ -193,9 +193,9 @@ export default function AddProductPage() {
 								}}
 								className="h-11 rounded-xl border border-secondary/20 bg-white px-3 text-secondary outline-none focus:border-accent focus:ring-4 focus:ring-accent/20 transition"
 							>
-								<option value="cream">Perfumes</option>
-								<option value="lotion">Perfume Oils</option>
-								<option value="serum">Cologne</option>
+								<option value="perfumes">Perfumes</option>
+								<option value="perfumeOils">Perfume Oils</option>
+								<option value="cologne">Cologne</option>
 							</select>
 						</label>
 
