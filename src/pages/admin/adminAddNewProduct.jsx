@@ -193,9 +193,9 @@ export default function AddProductPage() {
 								}}
 								className="h-11 rounded-xl border border-secondary/20 bg-white px-3 text-secondary outline-none focus:border-accent focus:ring-4 focus:ring-accent/20 transition"
 							>
-								<option value="cream">Cream</option>
-								<option value="lotion">Lotion</option>
-								<option value="serum">Serum</option>
+								<option value="cream">Perfumes</option>
+								<option value="lotion">Perfume Oils</option>
+								<option value="serum">Cologne</option>
 							</select>
 						</label>
 
